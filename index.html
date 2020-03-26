@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "XHTML 1.0 Strict" >
 <html xml:lang="es" lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
@@ -18,16 +18,16 @@
 -->
 
 
-<h1>
-  <p class="i" id="logo">
-  	<span class="titulo">La Aceitera</span> 
-    <span id="lema"><br/>Tu tienda de aceite en Internet</span>
-  </p>
-</h1>
+
+  <div class="i" id="logo">
+  	<div class="titulo"><h1>La Aceitera</h1></div> 
+    <div id="lema"><h2>Tu tienda de aceite en Internet</h2></div>
+  </div>
 
 
 
-<p class="t1"><h2>Cesta de la compra</h2></p>
+
+<div class="t1"><h2>Cesta de la compra</h2></div>
 
 
 <!--
@@ -39,7 +39,7 @@
 
 <div id="articulos">
 
-  <p class="t2"><h3>Art&iacute;culos en la cesta</h3></p>
+  <div class="t2"><h3>Art&iacute;culos en la cesta</h3></div>
 	
   <table id="tabla_compra" summary="Tabla con los productos comprados">
     <caption>Tabla con la lista de productos</caption>
@@ -89,14 +89,14 @@
 
 <div id="datos">
 
-  <p class="t2"><h4>Datos de facturaci&oacute;n</h4></p>
+  <div><h4>Datos de facturaci&oacute;n</h4></div> 
 
   <p class="info"><span class="i">i</span> Los campos marcados con un asterisco &#40;&#42;&#41; son obligatorios.</p>
 
   <form action="#">
     <fieldset>
     <div id="datos_personales">
-	    <label class="t3"><h5>Datos personales</h5></label>
+	    <div class="t3"><h5>Datos personales</h5></div>
       <div class="campo_form">
         <label for="empresa">Empresa  </label>
         <input title="empresa" id="empresa" name="empresa" type="text" tabindex="1" />
@@ -124,7 +124,7 @@
     </div>	
 
     <div id="datos_envio">
-      <p class="t3"><h5>Datos de env&iacute;o</h5></p>
+      <div class="t3"><h5>Datos de env&iacute;o</h5></div>
     	<div class="campo_form">
         <label for="dir" >&#40;&#42;&#41;Direcci&oacute;n </label>
         <input title="dir" id="dir" name="dir" type="text" tabindex="7" />
@@ -159,7 +159,7 @@
       <label></label>
       <input accesskey="s" value="Realizar Pedido" type="submit" tabindex="13" />
     </p>
-    <a href="" target="">Help</a></label>
+    <a href="" >Help</a>
   </fieldset>
   </form>
 
@@ -175,9 +175,9 @@
 
 <div id="garantias">
 
-  <p class="t2"><h4>Garant&iacute;as</h4></p>
+  <div class="t2"><h4>Garant&iacute;as</h4></div>
 
-  <p class="t3"><h5>Devoluci&oacute;n o anulaci&oacute;n de pedido</h5></p>
+  <div class="t3"><h5>Devoluci&oacute;n o anulaci&oacute;n de pedido</h5></div>
 
     <p>Puedes devolver un producto o pedido que por alg&uacute;n motivo no satisface 
       tus expectativas.</p>
@@ -203,12 +203,12 @@
       el ingreso en el extracto de movimientos de tu tarjeta de cr&eacute;dito 
       o de tu cuenta bancaria si pagaste con tarjeta de d&eacute;bito.</p>
     <p></p>
-    <p class="t3"><h5>Seguridad</h5></p>
+    <div class="t3"><h5>Seguridad</h5></div>
 
     <p>Tus datos se transmiten cifrados a trav&eacute;s de una plataforma de pago 
       totalmente segura.</p>
 
-  <p class="t3"><h5>Privacidad</h5></p>
+  <div class="t3"><h5>Privacidad</h5></div>
 
     <p>Los Socios y Usuarios se comprometen a navegar por la p&aacute;gina web y 
       a utilizar el contenido de buena fe.</p>
@@ -248,11 +248,11 @@
       medios y medidas a su alcance para evitar la p&eacute;rdida, mal uso, alteraci&oacute;n, 
       acceso no autorizado y extracci&oacute;n de los mismos.<br/>
     </p>
-  <link rel="Help" href="/ayuda-web.html" />
+
   </div>
 
 
-  <p id="pie"><h6> 2016 La Aceitera. 37008 Salamanca</h6></p>
+  <div id="pie"><h6> 2016 La Aceitera. 37008 Salamanca</h6></div>
   <div>
     <p>
       <a href="http://validator.w3.org/check?uri=referer"><img
@@ -265,6 +265,9 @@
               alt="¡CSS V&aacute;lido!" />
       </a>
     </p>
+    <p>
+      <img src="https://achecker.ca/images/icon_W2_aaa.jpg" alt="WCAG 2.0 (Level AAA)" height="32" width="102" />
+  </p>
   </div>
 
 </div>
